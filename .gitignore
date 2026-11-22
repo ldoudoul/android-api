@@ -1,0 +1,21 @@
+# Local build output
+/dist/
+/release/
+/build/
+/out/
+*.apk
+*.aab
+*.dex
+*.class
+*.log
+
+# Signing material and local configuration
+*.keystore
+*.jks
+*.key
+.env
+.env.*
+local.properties
+
+# Local test artifacts
+/tools/last-request.json
